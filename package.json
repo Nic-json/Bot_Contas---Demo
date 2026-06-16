@@ -1,0 +1,19 @@
+{
+  "name": "discordbotvendas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "SRC/index.js",
+  "scripts": {
+    "start": "node SRC/index.js",
+    "db:migrate": "node scripts/migrateDatabase.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "discord.js": "^14.26.4",
+    "dotenv": "^17.4.2",
+    "pg": "^8.21.0"
+  }
+}
